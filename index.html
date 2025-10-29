@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Erik Williams">
+  <meta name="description" content="Bear, Ninja, Hunter Game">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bear, Ninja, Hunter</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h2>Bear, Ninja, Hunter</h2>
+  <p id="subtext">Play against the computer!</p>
+
+  <ul>
+    <li>The Bear beats the Hunter.</li>
+    <li>The Hunter beats the Ninja.</li>
+    <li>And the Ninja beats the Bear.</li>
+  </ul>
+
+  <p id="instruction">Click a button below to select your choice.</p>
+
+  <hr>
+  <div id="buttons">
+    <button onclick="playGame('Bear')">Bear</button>
+    <button onclick="playGame('Ninja')">Ninja</button>
+    <button onclick="playGame('Hunter')">Hunter</button>
+  </div>
+  <hr>
+
+  <div id="results"></div>
+  <div id="winCounter"></div>
+  <div id="playAgainSection"></div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
